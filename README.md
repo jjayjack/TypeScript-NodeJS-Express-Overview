@@ -31,4 +31,11 @@ To begin routes to the API will be established using Express through Middleware 
 
 Used to run mock API calls to check routes
 
-1. Using established route of `localhost:3000/todos/` server route and create method can be tested.
+1. Using established route of `localhost:3000/todos/` get method route and create method route can be tested.
+2. GET / POST: To create a new todo a new raw JSON object must be set in correct annotation ex {"text":"New todo"} then sent. To check if sent, send another GET request.
+3. PATCH: Patch requires route of `localhost:3000/todos/ID` because nodemon is being utilized for development, a new todo must be sent. Once completed, run a new get request to copy the id for the todo. Using a new request open a new request, set your route to `localhost:3000/todos/COPIED_ID` and set request to PATCH and type in a new raw JSON object as if you were creating a new todo. Run and new message should appear with patched todo.
+4. DELETE: Delete requires having the id of a todo, if starting from nodemon following above to create items then create a route to grab id and delete. Once sent, a new message will appear for deletion.
+
+## Other Resources
+
+[NestJS](https://nestjs.com/)
