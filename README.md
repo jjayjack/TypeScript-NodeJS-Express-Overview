@@ -11,3 +11,12 @@ Working with TypeScript to build a REST API with NodeJS and Express. NodeJS is n
    Confirm settings that "target" is set to the last ES (for this 2022). Next make sure "module" is set to common js, moduleResolution" is set to node, "outDir" is set to ./dist, "rootDirs" is set to ./src
 
 ### Dependencies
+
+For application **production** level (--save)
+
+1. [Express](https://www.npmjs.com/package/express)
+2. [body-parser](https://www.npmjs.com/package/body-parser)
+
+For application **developer** level (--save-dev)
+
+1. [nodemon](https://www.npmjs.com/package/nodemon)
