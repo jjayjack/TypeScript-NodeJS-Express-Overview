@@ -21,3 +21,4 @@ For application **developer** level (--save-dev)
 
 1. [nodemon](https://www.npmjs.com/package/nodemon)
 2. [@types/node](https://www.npmjs.com/package/@types/node)
+3. [@types/express](https://www.npmjs.com/package/@types/express)
