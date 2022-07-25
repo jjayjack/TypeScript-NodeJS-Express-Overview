@@ -26,3 +26,9 @@ For application **developer** level (--save-dev)
 ## Setting up Routes to API
 
 To begin routes to the API will be established using Express through Middleware and Types.
+
+### Postman
+
+Used to run mock API calls to check routes
+
+1. Using established route of `localhost:3000/todos/` server route and create method can be tested.
