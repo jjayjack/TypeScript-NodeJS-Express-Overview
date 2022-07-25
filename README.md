@@ -22,3 +22,7 @@ For application **developer** level (--save-dev)
 1. [nodemon](https://www.npmjs.com/package/nodemon)
 2. [@types/node](https://www.npmjs.com/package/@types/node)
 3. [@types/express](https://www.npmjs.com/package/@types/express)
+
+## Setting up Routes to API
+
+To begin routes to the API will be established using Express through Middleware and Types.
