@@ -20,3 +20,4 @@ For application **production** level (--save)
 For application **developer** level (--save-dev)
 
 1. [nodemon](https://www.npmjs.com/package/nodemon)
+2. [@types/node](https://www.npmjs.com/package/@types/node)
