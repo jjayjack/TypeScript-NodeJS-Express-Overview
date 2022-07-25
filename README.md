@@ -38,4 +38,6 @@ Used to run mock API calls to check routes
 
 ## Other Resources
 
+[TypeScript](https://www.typescriptlang.org/)
 [NestJS](https://nestjs.com/)
+[Angular](https://angular.io/)
